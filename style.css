@@ -1,0 +1,547 @@
+/*start of index.html*/
+*{
+    margin: 0;
+    padding: 0;
+       
+}
+
+.container{
+    background: url(pic.jpg)no-repeat;
+    background-size:cover;
+    height: 100%;
+}
+/*navbar*/
+.navbar{
+   padding: 5px;
+  background-color: #272424;
+    font-family: sans-serif;
+}
+
+.humbug{
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin: 40px 20px 0 0 ;
+ float: right;
+ padding-right: 10px;
+}
+.line{
+  display:block;
+  background-color: red;
+  height: 5px;
+  width: 100%;
+  border-radius: 5px;
+}
+#icon1{
+  transform: translateY(-8px);
+}
+#icon3{
+  transform: translateY(8px);
+}
+.check{
+ display: none;
+
+}
+
+
+.navbar ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+
+
+.navbar ul li{
+    flex-direction: row;
+    display: inline-flex;
+    font-size: 25px;
+    padding: 30px;
+    
+}
+.navbar ul li a{
+    color: #07ffff;
+    text-decoration: none;
+   
+}
+
+.active,.navbar ul li a:hover{
+    border-radius: 10px;
+    color: white;
+    background-color:dodgerblue;
+    box-shadow: 0px 0px 5px 5px ;
+    box-sizing: border-box;
+    text-shadow: 0 0 15px;
+}
+.welcome-text{
+  padding: 100px;
+  font-size: 30px;
+  font-family: serif;
+  width: 45%;
+
+}
+.welcome-text h1{
+    color: #1f79c1;
+    font-family: cursive;}
+
+#check{
+ float: right;
+ margin-top: 40px;
+ padding-right: 70px;
+ display: none;
+}
+
+
+/*Reference:fig.1 Person Standing on Wrecked Plane,Photograph by stefan stenfancik,taken at July 14, 2017 1:01 am,Uploaded at March 05, 2018 (source: Pexels)*/
+/*End of home.html*/
+
+
+
+/* start of portfolio.html*/
+.wrapper{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+.port{
+  display: grid;
+  grid-template-columns: auto auto auto;
+    padding: 20px;
+    background-color: aqua;
+    width:100%;
+    height: 100%;
+    font-size: 30px;
+
+   
+}
+.one{
+
+  width: 400px;
+  height: 300px;
+  
+  margin: 5px;
+}
+.two{
+
+  width: 400px;
+  height: 300px;
+  
+  margin: 5px;
+}
+.third{
+
+  width: 400px;
+  height: 300px;
+  
+  margin: 5px;
+}
+.fourth{
+
+  width: 400px;
+  height: 300px;
+  
+  margin: 5px;
+}
+.fifth{
+
+  width: 400px;
+  height: 300px;
+
+  margin: 5px;
+}
+
+.storage{
+    background-color: black;
+    padding: 10px;
+    display: flex;
+  flex-direction: column;
+}
+/* End of portfolio.html*/
+
+
+/* starts of cv.html*/
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.store{
+  border:2px solid black;
+  width: 60%;
+  margin: 0 auto;
+   display: flex;
+  flex-direction: row;
+  height: 800px;
+}
+.border1{
+  width: 35%;
+  height: 100%;
+  background-color: #f0abab;
+  padding: 40px;
+}
+.border1 b{
+  color: green;
+}
+.border2{
+  width: 70%;
+  height: 100%;
+  background-color: #7ca9cd;
+  padding: 40px;
+
+}
+.border2 b{
+  color: green;
+}
+
+.ad{
+  width: 200px;
+  height: 200px;
+}
+.heading{
+  font-size: 40px;
+  font-family: serif;
+  color: #176238;
+ padding-left: 60px;
+
+}
+.name{
+  padding: 20px;
+  background-color: #5e9999;
+  font-size: 30px;
+  text-align: center;
+}
+/*End of CV.html*/
+
+
+ /*start of contact.html section*/
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;   
+
+      }
+.contact-section{
+    background:linear-gradient(120deg, blue,red);
+    background-size: cover;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+
+      }
+.contact{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 20px;
+  
+
+
+}
+.contact-section h1{
+        text-align: center;
+        color: white;
+    font-size: 45px;
+        
+      }
+      .border{
+        width: 100px;
+        height: 10px;
+        background: black;
+        margin: 40px auto;
+      }
+      .contact-form{
+        margin: 30px;
+        padding: 10px;
+           
+      
+      }
+      .contact-form-text{
+        display: block;
+        width: 100%;
+        height: 60px;
+        box-sizing: border-box;
+        margin: 15px ;
+        background:black;
+        padding: 20px 40px;
+        border: 0;
+        color: white;
+        font-size: 15px;
+        outline: none;
+        transition: 0.5s;
+       
+
+
+      }
+    
+      .contact-form-text:hover
+      {
+        box-shadow: 0 0 15px 5px ;
+      }
+      textarea.contact-form-text{
+        resize:none;
+        height: 200px;
+      }
+      .contact-form-btn{
+        float: right;
+        border: 0;
+        background: #359ac8;
+        padding: 10px 20px;
+        border-radius: 20px;
+        color: white;
+        text-shadow: 0 0 15px;
+      }
+      .contact-form-btn:hover
+      {
+        background-color:black;
+
+      }
+      /*End of contact.html section*/
+
+
+
+/*Sitereport.html*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.hello{
+  display: flex;
+  flex-direction:row;
+  height: 80%;
+  width: 100%;
+  
+
+}
+.left{
+  padding: 50px;
+  width: 50%;
+  background-color: #3eda4770;
+  font-size: 20px;
+  
+
+}
+.left h1{
+  font-family: cursive;
+  padding: 10px;
+  background-color:#51c2d0;
+  text-align: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px;
+
+}
+
+
+.right{
+  padding: 50px;
+  width: 50%;
+  background-color:#c5557b;
+}
+
+.right h2{
+  padding: 30px;
+  width: 90%;
+  border-radius: 20px;
+  background-color: #2196f3;
+text-align: center;
+box-shadow: 5px 5px 5px;
+  
+}
+.png1{
+  width: 300px;
+  height: 300px;
+ }
+
+.png2{
+  width: 300px;
+  height: 300px;
+}
+.png3{
+  width: 300px;
+  height: 300px;
+}
+.png4{
+  width: 300px;
+  height: 300px;
+}
+.png5{
+  width: 300px;
+  height: 300px;
+}
+.png6{
+  width: 300px;
+  height: 300px;
+}
+
+.p1{
+  width: 300px;
+  height: 300px;
+}
+.p2{
+  width: 300px;
+  height: 300px;
+}
+.p3{
+  width: 300px;
+  height: 300px;
+}
+.p4{
+  width: 300px;
+  height: 300px;
+}
+.p5{
+  width: 300px;
+  height: 300px;
+}
+/*end of sitereport*/
+
+
+
+@media screen and (max-width: 650px){
+  /*home page media queries*/
+  .navbar ul{
+    flex-direction: column;
+    justify-items: center;
+
+  }
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+  .port{
+    grid-template-columns: auto;
+    font-size: 25px;
+  }
+  /*end of homepage media queries*/
+
+
+
+  /*start of cv media queries*/
+
+  .one{
+    width: 200px;
+    height: 200px;
+  }
+  .two{
+    width: 200px;
+    height: 200px;
+  }
+  .third{
+    width: 200px;
+    height: 200px;
+  }
+  .fourth{
+    width: 200px;
+    height: 200px;
+  }
+  .fifth{
+    width: 200px;
+    height: 200px;
+  }
+  .border1{
+    width: 200px;
+    font-size: 5px;
+
+  }
+  .border2{
+    width: 300px;
+    font-size: 5px;}
+
+ .border2 h1{
+  text-align: center;
+  font-size: 10px;
+  padding-right: 100px;
+ }
+ .name{
+  font-size: 10px;
+ }
+ .ad{
+  width: 100px;
+  height: 100px;
+
+ }
+ .store{
+  border: none;
+  margin: 0;
+  width: 100%;
+ }
+ 
+ 
+/*end of cv media queries*/
+
+
+ /*start of sitereport media queries*/
+ .hello{
+  width: 100%;
+ }
+ .left{
+  width: 50%;
+  font-size: 10px;
+ }
+ .left h1{
+  font-size: 10px;
+ }
+ .right{
+   width: 50%;
+ }
+ .right h2{
+  font-size: 10px;
+ }
+ .p1{
+  width: 200px;
+  height: 200px;
+ }
+ .p2{
+  width: 200px;
+  height: 200px;
+ }
+ .p3{
+  width: 200px;
+  height: 200px;
+ }
+ .p4{
+  width: 200px;
+  height: 200px;
+ }
+ .p5{
+  width: 200px;
+  height: 200px;
+ }
+ .png1{
+  width: 150px;
+  height: 200px;
+ }
+ .png2{
+  width: 150px;
+  height: 200px;
+ }
+ .png3{
+  width: 150px;
+  height: 200px;
+ }
+ .png4{
+  width: 150px;
+  height: 200px;
+ }
+ .png5{
+  width: 150px;
+  height: 200px;
+ }
+ .png6{
+  width: 150px;
+  height: 200px;
+ }
+ /*end of sitereport media queries*/
+ 
+
+
+
+ /*contact media queries*/
+.contact{
+  font-size: 15px;
+}
+}
